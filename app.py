@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello World!\n\n\nThis Page Was Created by MScarborough Using a Sample Project and Then Modifying It!"
+    return "Hello World!<br><br><br>This Page Was Created by MScarborough Using a Sample Project and Then Modifying It!"
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
